@@ -1,0 +1,6 @@
+s=input()
+a=0
+for l in s:
+    if l.islower():
+        a+=1
+print(a)
